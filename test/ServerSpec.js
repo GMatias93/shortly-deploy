@@ -13,7 +13,7 @@ var Link = require('../app/models/link');
 
 var User = require('../app/models/user');
 var Link = require('../app/models/link');
-('', function() {
+describe('', function() {
 
   beforeEach(function(done) {
     // Log out currently signed in user
@@ -22,6 +22,7 @@ var Link = require('../app/models/link');
       .end(function(err, res) {
 
         // Delete objects from db so they can be created later for the test
+        // console.log(exec());
         Link.remove({url : 'http://www.roflzoo.com/'}).exec();
         User.remove({username : 'Savannah'}).exec();
         User.remove({username : 'Phillip'}).exec();
