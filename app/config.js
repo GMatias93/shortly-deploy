@@ -1,5 +1,5 @@
 // var Bookshelf = require('bookshelf');
-var path = require('path');
+// var path = require('path');
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 mongoose.connect('mongodb://localhost/shortlydb'); //fix localhost address

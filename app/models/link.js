@@ -1,4 +1,4 @@
-// var db = require('../config');
+var db = require('../config');
 var crypto = require('crypto');
 var mongoose = require('mongoose');
 
