@@ -2,7 +2,7 @@
 var path = require('path');
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-mongoose.connect('mongodb://127.0.0.1/shortlydb'); //fix localhost address
+mongoose.connect('mongodb://localhost/shortlydb'); //fix localhost address
 var db = mongoose.connection;
 
 
